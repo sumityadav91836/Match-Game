@@ -1,0 +1,29 @@
+.tabs-container {
+  list-style-type: none;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.each-tab {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+}
+
+.active-tab-btn {
+  color: #fec653;
+  border-bottom: 2px solid #fec653;
+  font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs-container {
+    width: 50%;
+  }
+}

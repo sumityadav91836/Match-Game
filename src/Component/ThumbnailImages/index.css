@@ -1,0 +1,17 @@
+.thumbnail-img-container {
+  height: 120px;
+  width: 120px;
+  margin: 10px;
+  list-style-type: none;
+}
+
+.thumbnail-img {
+  width: 100%;
+}
+
+.thumbnail-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

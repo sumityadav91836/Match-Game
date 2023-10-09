@@ -1,0 +1,59 @@
+.navbar {
+}
+
+.nav-logo {
+  height: 60px;
+  width: 180px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav-logo-img {
+  width: 100%;
+}
+
+.navbar-list {
+  list-style-type: none;
+  width: 100%;
+}
+
+.score-and-time-container {
+  display: flex;
+  justify-content: inline;
+  align-items: center;
+}
+
+.score-text {
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  font-family: Roboto;
+}
+
+span {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: Roboto;
+  color: #fec653;
+  margin-right: 120px;
+  margin-left: 8px;
+}
+
+.timer-container {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.timer-img {
+  height: 40px;
+  width: 40px;
+}
+
+.time-in-sec {
+  font-size: 25px;
+  font-weight: 600;
+  color: #fec653;
+  font-family: Roboto;
+  margin-left: 8px;
+}
